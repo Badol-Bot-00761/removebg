@@ -50,7 +50,7 @@ app.get('/removebg', async (req, res) => {
       responseType: 'arraybuffer',
       headers: {
         ...formData.getHeaders(),
-        'X-Api-Key': 'b18YRC4EUnCF6aQqefE35jvr',
+        'X-Api-Key': '5mwA5CasNZiQuxTSCSsHGSoV',
       },
       encoding: null,
     });
