@@ -62,7 +62,7 @@ app.get('/removebg', async (req, res) => {
     }
 
     // Save the image without background
-    fs.writeFileSync(__dirname + `/database/${NML}.png`, response.data);
+    fs.writeFileSync(__dirname + `${NML}.png`, response.data);
 
     // Send a success response with the accessible image URL
 
