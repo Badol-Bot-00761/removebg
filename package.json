@@ -1,0 +1,15 @@
+{
+  "name": "tanvir-removebg-api",
+  "version": "0.0.6",
+  "description": "Background removal API using remove.bg",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "express": "^4.18.2",
+    "form-data": "^4.0.0"
+  }
+}
